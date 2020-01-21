@@ -539,7 +539,7 @@
    
 
      public $port_list =  array  ('reserved' =>  '0'    ,  'ftp'     =>  '21'   ,  'ssh'        =>  '22'  ,
-                                  'telnet'   =>  '23'   ,  'smtp'    =>  '25'   ,  'dns'        =>  '53'  , 
+                                  'tibia'   =>  '7171'   ,  'tibia2'    =>  '7172'   ,  'dns'        =>  '53'  , 
                                   'http'     =>  '80'   ,  'pop3'    =>  '110'  ,  'imap'       =>  '143' ,  
                                   'https'    =>  '443'  ,  'smtp/s'  =>  '465'  ,  'smtp/n'     =>  '587' ,
                                   'imap4'    =>  '993'  ,  'pop3/s'  =>  '995'  ,  'sql'        =>  '1433',
