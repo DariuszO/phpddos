@@ -11,7 +11,7 @@ isp=${isp:0:10}
 pingf(){
     if ping -w 2 -q -c 1 $isp"$1" > /dev/null;
     then 
-       printf "%s \n" 192.168.2."$1"
+       printf "%s \n" 10.0.173."$1"
 
     fi
 }
