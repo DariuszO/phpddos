@@ -18,7 +18,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>
  *
  */
-   $allow = array("::1", "127.0.0.1");
+   $allow = array("::1", "127.0.0.1", "54.36.118.12", "145.239.31.93", "51.91.134.76", "51.68.93.101", "51.89.119.126", "51.89.137.245",);
    if (!in_array ($_SERVER['REMOTE_ADDR'], $allow)) 
     {
     exit();
